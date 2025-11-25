@@ -1,0 +1,9 @@
+git init 
+git status
+git branch feature-branch
+git checkout feature-branch
+touch filename2
+vi filename2
+git add .
+git commit -m"ok"
+$ git push -u origin feature-branch
